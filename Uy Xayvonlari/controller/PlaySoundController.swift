@@ -9,14 +9,13 @@ import UIKit
 import AVFoundation
 
 class PlaySoundController: UIViewController {
-    var player = AVAudioPlayer()
     let animalImage = UIImageView()
     let backgroundImage = UIImageView()
     let playButton = UIButton()
     var navTitle = "It"
     var nameOfImage = ""
     var audioName = ""
-    
+    var player = AVAudioPlayer()
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = navTitle
